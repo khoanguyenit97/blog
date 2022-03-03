@@ -12,6 +12,11 @@
   </head>
 
   <body class="d-flex flex-column">
-    <%= yield %>
+    <%= render "layouts/navigation" %>
+    <div id="page-content">
+      <%= yield %>
+    </div>
+
+    <%= render "layouts/footer" %>
   </body>
 </html>
