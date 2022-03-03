@@ -11,9 +11,9 @@ gem 'webpacker', '~> 5.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails', require: 'sprockets/railtie'
-group :production do
-  gem "pg", "~> 1.1"
-end
+
+gem "pg", "~> 1.1"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
