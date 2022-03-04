@@ -30,4 +30,4 @@ test:
 production:
   <<: *default
   host: <%= ENV['POSTGRES_HOST'] %>
-  database: bootstrap_production
+  database: <%= ENV['DATABASE_NAME'] %>
